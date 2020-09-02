@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,main{
+  height: 100vh;
+  width: 100%;
+}
+
+.bg {
+  background-image: url("./assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+} 
+
+/* nav.. */
+
+nav{
+  height: 10vh;
+}
+
+.logo{
+  font-size: 20px;
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* admission.. */
+
+#home{
+  height: 100vh;
+}
+
+#home div{
+  max-height: 100%;
+}
+
+.btnshadow{
+  box-shadow: 7px 7px 10px 6px rgba(0,0,0,0.56);
+}

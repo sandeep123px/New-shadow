@@ -1,0 +1,116 @@
+.admissiononline{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .admissiondiv{
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  .admissiontext{
+    margin-right: 43%;
+    margin-left: 50px;
+  }
+  table thead{
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+  }
+  td{
+    color:black;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  th{
+    /* display: flex; */
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+  }
+
+
+  .myLoader{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#000;
+    opacity: 0.7;
+  }
+  .loaderPic{
+    height: 200px;
+    width: 200px;
+    background-image: url(../../assets/newLoader.gif);
+    background-position: center;
+  }
+  .bigwhite{
+    height:2000px;
+    width:100%;
+    background-color: white;
+  }
+  .box1{
+    height: 300px;
+    width:600px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 4px;
+  }
+  .subbox1{
+    height: 280px;
+    width:600px;
+    background: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 4px;
+    padding:10px;
+    overflow:hidden;
+
+  }
+  .subbox2{
+    height:260px;
+    width:600px;
+    background: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 4px;
+    overflow:hidden;
+
+
+  }
+  .flex{
+    display: flex;
+  }
+  .collegename{
+    height:100px;
+    width:600px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  .review{
+    /* height:160px;
+    width:200px;
+    border:1px solid gray; */
+    overflow: auto;
+    text-align: center;
+    
+  }
+  .courselist{
+    height:160px;
+    width:400px;
+    /* border: 1px solid gray; */
+    overflow:scroll;
+  }
+  h3{
+    text-align: center;
+  }
