@@ -10,7 +10,7 @@ const CourseList =()=> {
                      
           useEffect(()=>{
 		    getResult();
-	            },[])
+	        },[])
 
 
 
@@ -78,7 +78,7 @@ const CourseList =()=> {
 							<div className="courses-slider">
 								<div className="slide-list">
 									<div className="media">
-										<img src="/assets/img/courses-img-1.png" className="img-fluid" alt="Course figure" width="100" height="130" />
+										<img src="/img/courses-img-1.png" className="img-fluid" alt="Course figure" width="100" height="130" />
 										<div className="media-body">
 											<h6>Python Advance</h6>
 											<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
@@ -91,7 +91,7 @@ const CourseList =()=> {
 								</div>
 								<div className="slide-list">
 									<div className="media">
-										<img src="/assets/img/courses-img-2.png" className="img-fluid" alt="Course figure" width="100" height="130" />
+										<img src="/img/courses-img-2.png" className="img-fluid" alt="Course figure" width="100" height="130" />
 										<div className="media-body">
 											<h6>Python Advance</h6>
 											<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
@@ -104,7 +104,7 @@ const CourseList =()=> {
 								</div>
 								<div className="slide-list">
 									<div className="media">
-										<img src="/assets/img/courses-img-1.png" className="img-fluid" alt="Course figure" width="100" height="130" />
+										<img src="/img/courses-img-1.png" className="img-fluid" alt="Course figure" width="100" height="130" />
 										<div className="media-body">
 											<h6>Python Advance</h6>
 											<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
@@ -117,7 +117,7 @@ const CourseList =()=> {
 								</div>
 								<div className="slide-list">
 									<div className="media">
-										<img src="/assets/img/courses-img-2.png" className="img-fluid" alt="Course figure" width="100" height="130" />
+										<img src="/img/courses-img-2.png" className="img-fluid" alt="Course figure" width="100" height="130" />
 										<div className="media-body">
 											<h6>Python Advance</h6>
 											<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
@@ -146,7 +146,7 @@ const CourseList =()=> {
 												  
 												<div className="mb-3">
 													<h6>{v.institute_name}
-														<img src="/assets/img/badge.png" className="img-fluid ml-2" alt="badge" width="40" height="40" />
+														<img src="/img/badge.png" className="img-fluid ml-2" alt="badge" width="40" height="40" />
 													</h6>
 											<span className="text-muted small">{v.city} , {v.country}</span>
 												</div>
@@ -163,11 +163,11 @@ const CourseList =()=> {
 												<p className="mb-0">{v.institute_overview}</p>
 											</div>
 											<div className="fixed-block">
-											<img src="/assets/img/ribbon.png" className="img-fluid ribbon" alt="ribbon" width="25" height="80" />
+											<img src="/img/ribbon.png" className="img-fluid ribbon" alt="ribbon" width="25" height="80" />
 												<span className="text-warning d-block mb-4">Get Admission Online</span>
 												<p className="price">
-													<span className="d-block strike">Course Name</span>
-											<span className="d-block font-lg"></span>
+													<span className="d-block strike">INR 5,000.00</span>
+											<span className="d-block font-lg">INR 3,400.00</span>
 												</p>
 												<Link className="btn btn-primary btn-sm apply-btn">APPLY</Link>
 											</div>
@@ -198,12 +198,12 @@ const CourseList =()=> {
 															if(i == 1){
 															return(
 																<div className="media" key={i}>
-											<img src="/assets/img/course-list-2.png" className="img-fluid mr-3" alt="course img" width="200" height="160" />
+											<img src="/img/course-list-2.png" className="img-fluid mr-3" alt="course img" width="200" height="160" />
 											<div className="media-body">
 												<div className="mb-3">
 													
 													<h6>{v.institute_name}
-														<img src="/assets/img/badge.png" className="img-fluid ml-2" alt="badge" width="40" height="40" />
+														<img src="/img/badge.png" className="img-fluid ml-2" alt="badge" width="40" height="40" />
 													</h6>
 															<span className="text-muted small">{v.city} , {v.country}</span>
 															<p>
@@ -223,7 +223,7 @@ const CourseList =()=> {
 												<p  style={{overflow:"hidden"}}className="mb-0">{v.institute_overview}</p>
 											</div>
 											<div className="fixed-block">
-												<img src="/assets/img/ribbon.png" className="img-fluid ribbon" alt="ribbon" width="25" height="80" />
+												<img src="/img/ribbon.png" className="img-fluid ribbon" alt="ribbon" width="25" height="80" />
 												<span className="text-warning d-block mb-4">Get Admission Online</span>
 												<p className="price">
 													<span className="d-block strike">INR 5,000.00</span>
@@ -259,12 +259,12 @@ const CourseList =()=> {
 															if(i == 2){
 															return(
 																<div className="media" key={i}>
-											<img src="/assets/img/course-list-2.png" className="img-fluid mr-3" alt="course img" width="200" height="160" />
+											<img src="/img/course-list-2.png" className="img-fluid mr-3" alt="course img" width="200" height="160" />
 											<div className="media-body">
 												<div className="mb-3">
 													
 													<h6>{v.institute_name}
-														<img src="/assets/img/badge.png" className="img-fluid ml-2" alt="badge" width="40" height="40" />
+														<img src="/img/badge.png" className="img-fluid ml-2" alt="badge" width="40" height="40" />
 													</h6>
 															<span className="text-muted small">{v.city} , {v.country}</span>
 															<p>
@@ -284,7 +284,73 @@ const CourseList =()=> {
 												<p  style={{overflow:"hidden"}}className="mb-0">{v.institute_overview}</p>
 											</div>
 											<div className="fixed-block">
-												<img src="/assets/img/ribbon.png" className="img-fluid ribbon" alt="ribbon" width="25" height="80" />
+												<img src="/img/ribbon.png" className="img-fluid ribbon" alt="ribbon" width="25" height="80" />
+												<span className="text-warning d-block mb-4">Get Admission Online</span>
+												<p className="price">
+													<span className="d-block strike">INR 5,000.00</span>
+													<span className="d-block font-lg">INR 3,400.00</span>
+												</p>
+												<Link className="btn btn-primary btn-sm apply-btn">APPLY</Link>
+											</div>
+										</div>
+										
+															)
+														}
+														})
+													}
+										
+										<div className="bottom-card">
+											<div className="card-links">
+												<Link to="/">Explore Opportunities</Link>
+												<Link to="/">Alma Mater</Link>
+											</div>
+											<div className="review">
+												<h4>ReViews</h4>
+												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+											</div>
+											<div className="card-links">
+												<Link to="/">Explore Opportunities</Link>
+												<Link to="/">Alma Mater</Link>
+											</div>
+											
+										</div>
+										
+									</div>
+                                       
+									
+								</div>
+								<div className="course-stack-card" id="show">
+									{
+														data.map((v,i)=>{
+															if(i == 3){
+															return(
+																<div className="media" key={i}>
+											<img src="/img/course-list-2.png" className="img-fluid mr-3" alt="course img" width="200" height="160" />
+											<div className="media-body">
+												<div className="mb-3">
+													
+													<h6>{v.institute_name}
+														<img src="/img/badge.png" className="img-fluid ml-2" alt="badge" width="40" height="40" />
+													</h6>
+															<span className="text-muted small">{v.city} , {v.country}</span>
+															<p>
+															{v.courses_list == undefined ? (null) : (
+												v.courses_list.map((idx,i)=>{
+													if(i == 3){
+													
+													return(
+													<span  className="d-block font-lg">{idx.course}</span>
+													)		
+												}
+												
+												})
+											)}
+															</p>
+												</div>
+												<p  style={{overflow:"hidden"}}className="mb-0">{v.institute_overview}</p>
+											</div>
+											<div className="fixed-block">
+												<img src="/img/ribbon.png" className="img-fluid ribbon" alt="ribbon" width="25" height="80" />
 												<span className="text-warning d-block mb-4">Get Admission Online</span>
 												<p className="price">
 													<span className="d-block strike">INR 5,000.00</span>
@@ -314,16 +380,77 @@ const CourseList =()=> {
 											</div>
 										</div>
 									</div>
-								</div>
+									<div className="course-stack-card" id="show">
+									{
+														data.map((v,i)=>{
+															if(i == 4){
+															return(
+																<div className="media" key={i}>
+											<img src="/img/course-list-2.png" className="img-fluid mr-3" alt="course img" width="200" height="160" />
+											<div className="media-body">
+												<div className="mb-3">
+													
+													<h6>{v.institute_name}
+														<img src="/img/badge.png" className="img-fluid ml-2" alt="badge" width="40" height="40" />
+													</h6>
+															<span className="text-muted small">{v.city} , {v.country}</span>
+															<p>
+															{v.courses_list == undefined ? (null) : (
+												v.courses_list.map((idx,i)=>{
+													if(i == 1){
+													
+													return(
+													<span  className="d-block font-lg">{idx.course}</span>
+													)		
+												}
+												
+												})
+											)}
+															</p>
+												</div>
+												<p  style={{overflow:"hidden"}}className="mb-0">{v.institute_overview}</p>
+											</div>
+											<div className="fixed-block">
+												<img src="/img/ribbon.png" className="img-fluid ribbon" alt="ribbon" width="25" height="80" />
+												<span className="text-warning d-block mb-4">Get Admission Online</span>
+												<p className="price">
+													<span className="d-block strike">INR 5,000.00</span>
+													<span className="d-block font-lg">INR 3,400.00</span>
+												</p>
+												<Link className="btn btn-primary btn-sm apply-btn">APPLY</Link>
+											</div>
+										</div>
+										
+															)
+														}
+														})
+													}
+										
+										<div className="bottom-card">
+											<div className="card-links">
+												<Link to="/">Explore Opportunities</Link>
+												<Link to="/">Alma Mater</Link>
+											</div>
+											<div className="review">
+												<h4>ReViews</h4>
+												<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+											</div>
+											<div className="card-links">
+												<Link to="/">Explore Opportunities</Link>
+												<Link to="/">Alma Mater</Link>
+											</div>
+										</div>
+									</div>
+								
 							</div>
 							<div className="col-lg-4">
 								<div className="box-card">
-									<img src="/assets/img/admissions-ad-2.jpg" className="img-fluid" alt="ads" width="" height="" />
+									<img src="/img/admissions-ad-2.jpg" className="img-fluid" alt="ads" width="" height="" />
 								</div>
 								<div className="suggestion-block box-card">
 									<h6>Suggestion For You</h6>
 									<div className="media">
-										<img src="/assets/img/blog-img-1.png" className="img-fluid mr-3" alt="blog-img" width="120" height="120" />
+										<img src="/img/blog-img-1.png" className="img-fluid mr-3" alt="blog-img" width="120" height="120" />
 										<div className="media-body">
 											<h6>Aryan University</h6>
 											<p>Lorem Ipsum is simply dummy text of the printing and typesetting text of the printing and typesetting .</p>
@@ -331,7 +458,7 @@ const CourseList =()=> {
 										</div>
 									</div>
 									<div className="media">
-										<img src="/assets/img/blog-img-2.png" className="img-fluid mr-3" alt="blog-img" width="120" height="120" />
+										<img src="/img/blog-img-2.png" className="img-fluid mr-3" alt="blog-img" width="120" height="120" />
 										<div className="media-body">
 											<h6>Aryan University</h6>
 											<p>Lorem Ipsum is simply dummy text of the printing and typesetting text of the printing and typesetting .</p>
@@ -339,7 +466,7 @@ const CourseList =()=> {
 										</div>
 									</div>
 									<div className="media">
-										<img src="/assets/img/blog-img-1.png" className="img-fluid mr-3" alt="blog-img" width="120" height="120" />
+										<img src="/img/blog-img-1.png" className="img-fluid mr-3" alt="blog-img" width="120" height="120" />
 										<div className="media-body">
 											<h6>Aryan University</h6>
 											<p>Lorem Ipsum is simply dummy text of the printing and typesetting text of the printing and typesetting .</p>
